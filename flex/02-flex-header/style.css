@@ -28,16 +28,7 @@ a {
   text-decoration: none;
 }
 
-.left-links ul{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 10px;
-  margin: 0;
-  padding: 0;
-}
-
-.right-links ul{
+ul{
   display: flex;
   justify-content: space-between;
   align-items: center;
