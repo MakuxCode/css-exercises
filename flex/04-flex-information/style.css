@@ -24,3 +24,33 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* My solution */
+body{
+  text-align: center;
+}
+
+.title{
+  margin-bottom: 32px;
+}
+
+.plant-list{
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.one,
+.two,
+.three,
+.four{
+  width: 200px;
+  height: auto;
+}
+
+.text{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
