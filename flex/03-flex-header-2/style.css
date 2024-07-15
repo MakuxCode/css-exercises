@@ -56,23 +56,18 @@ ul {
   margin: 0px 10px;
 }
 
-
-.left-header{
+.left-header,
+.links,
+.right-header{
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .links{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   gap: 20px;
 }
 
 .right-header{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   gap: 20px;
 }
