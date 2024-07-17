@@ -24,3 +24,24 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+/* My Solution */
+body{
+  display: flex;
+  flex-direction: column;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.left-links,
+.right-links{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
