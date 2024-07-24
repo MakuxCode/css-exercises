@@ -39,6 +39,7 @@ a{
 }
 
 body{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   display: flex;
   flex-direction: column;
 }
@@ -48,14 +49,32 @@ body{
   flex: 1;
 }
 
+.header{
+  font-size: 32px;
+  font-weight: 900px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px 16px;
+}
+
+.sidebar{
+  min-width: 300px;
+  font-size: 24px;
+  padding: 16px;
+}
+
 .cards{
   display: flex;
   flex-wrap: wrap;
+  padding: 48px;
+  gap: 30px;
 }
 
 .card{
   width: 350px;
   height: 320px;
+  padding: 20px;
 }
 
 .footer{
@@ -63,4 +82,5 @@ body{
   justify-content: center;
   align-items: center;
 }
+
 
